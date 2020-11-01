@@ -1,6 +1,6 @@
 # Token Bonding Curves 
 
-Smart Contracts in solidity for issuing continuous tokens with a token bonding curve on ethereum. Forked from this [repo](https://yos.io/2018/11/10/bonding-curves/) and companion [article](https://yos.io/2018/11/10/bonding-curves/) 
+Smart Contracts in solidity for issuing continuous tokens with a token bonding curve on ethereum. Forked from this [repo](https://github.com/yosriady/continuous-token) and companion [article](https://yos.io/2018/11/10/bonding-curves/) 
 
 The only meaningful change is in front running mitigation - I went with the uniswap-esque slippage tolerance (as opposed to a gas limit approach).
 
